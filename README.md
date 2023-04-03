@@ -18,12 +18,12 @@ va_start(va_list ap, last) (last being the argument which precedes the argument 
 
 va_arg(va_list ap, type)      Types are as follows;
 
-  character -- int
-  integer -- int
-  unsigned integer -- unsigned int
-  hexadecimal -- unsigned int
-  string -- char *
-  pointer address -- unsigned long long
+  character -- int |
+  integer -- int |
+  unsigned integer -- unsigned int |
+  hexadecimal -- unsigned int |
+  string -- char * |
+  pointer address -- unsigned long long |
   
   Each call to va_arg will modify variable ap, so that the next call will return the next argument.
 
