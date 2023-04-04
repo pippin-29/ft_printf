@@ -7,7 +7,7 @@ It does not include the bonus part of the project, which would include padding, 
 Flags Handled Include c(character), s(string), p(pointer address), x(lc hex), X(uc hex),
 u(unsigned integer), i(integer), d(decimal base integer), %(percent symbol).
 
-The main function finds the first and subsequent occurrences of the percent symbol,
+The ft_printf function finds the first and subsequent occurrences of the percent symbol,
 Iterates past the % and replaces the format specifier input with the required parameter,
 Each parameter input replaces each format specifier in sequence/order from first to last.
 
